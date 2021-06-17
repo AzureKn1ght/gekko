@@ -1,0 +1,30 @@
+[EMA]
+long = 200
+short = 50
+
+[RSI]
+rsi = 10
+high = 80
+low = 60
+mod_high = 5
+mod_low = -5
+
+[ADX]
+adx = 3
+high = 70
+low = 50
+
+[NN]
+threshold_buy = 1.0
+threshold_sell = -1.0
+SMMA = 4
+decay = 0.60
+price_buffer_len = 90
+
+[TRADE]
+stoploss_enabled = false
+stoploss_threshold = 0.85
+take_profit = 99
+
+[FILE]
+strat_name = "default"

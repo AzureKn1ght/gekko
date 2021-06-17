@@ -66,6 +66,7 @@
     "ENJ",
     "EVX",
     "FUEL",
+    "FTT",
     "GNT",
     "GO",
     "GRS",
@@ -86,6 +87,7 @@
     "LSK",
     "LUN",
     "MANA",
+    "MATIC",
     "MDA",
     "MFT",
     "MITH",
@@ -127,6 +129,7 @@
     "SUB",
     "SYS",
     "THETA",
+    "TOMO",
     "TNB",
     "TNT",
     "TRX",
@@ -139,6 +142,7 @@
     "WABI",
     "WAN",
     "WAVES",
+    "WIN",
     "WINGS",
     "WPR",
     "XEM",
@@ -146,6 +150,7 @@
     "XMR",
     "XRP",
     "XZC",
+    "XTZ",
     "YOYO",
     "ZEC",
     "ZEN",
@@ -157,11 +162,34 @@
     "ETH",
     "USDT",
     "TUSD",
+    "TRX",
     "PAX",
     "USDC",
     "XRP"
   ],
   "markets": [
+    {
+      "pair": [
+        "TRX",
+        "WIN"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 100
+      }
+    },
+    {
+      "pair": [
+        "BNB",
+        "XTZ"
+      ],
+      "minimalOrder": {
+        "amount": 0.1,
+        "price": 0.00001,
+        "order": 0.1
+      }
+    },
     {
       "pair": [
         "BNB",
@@ -571,6 +599,17 @@
     },
     {
       "pair": [
+        "TUSD",
+        "LINK"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
         "BTC",
         "ETH"
       ],
@@ -709,6 +748,17 @@
       "minimalOrder": {
         "amount": 0.1,
         "price": 0.00001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "TOMO"
+      ],
+      "minimalOrder": {
+        "amount": 0.01,
+        "price": 0.0001,
         "order": 10
       }
     },
@@ -1748,6 +1798,17 @@
     },
     {
       "pair": [
+        "BNB",
+        "MATIC"
+      ],
+      "minimalOrder": {
+        "amount": 1,
+        "price": 0.000001,
+        "order": 1
+      }
+    },
+    {
+      "pair": [
         "BTC",
         "EOS"
       ],
@@ -1831,6 +1892,17 @@
       "minimalOrder": {
         "amount": 0.01,
         "price": 0.0001,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "USDT",
+        "FTT"
+      ],
+      "minimalOrder": {
+        "amount": 0.001,
+        "price": 0.001,
         "order": 10
       }
     },
@@ -2420,6 +2492,17 @@
     {
       "pair": [
         "USDT",
+        "LTC"
+      ],
+      "minimalOrder": {
+        "amount": 0.00001,
+        "price": 0.01,
+        "order": 10
+      }
+    },
+    {
+      "pair": [
+        "PAX",
         "LTC"
       ],
       "minimalOrder": {

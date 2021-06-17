@@ -1,0 +1,69 @@
+# RSI Trader Variables
+[EMA]
+long = 144
+short = 55
+
+[BULL]
+rsi = 30
+high = 84
+low = 34
+mod_high = 15
+mod_low = -5
+
+[BEAR]
+rsi = 28
+high = 70
+low = 15
+mod_high = 15
+mod_low  = -5
+
+[CLIMAX]
+adx = 3
+high = 85
+low = 45
+
+
+# TREND TRADER Variables
+[BASELINE]
+hma = 100
+
+[OBVEMA]
+long = 144
+short = 55
+
+[FISHER]
+length = 18
+trigger = 2
+
+[FILTER]
+atr = 15
+multiplier = 1.0
+
+[ADX]
+adx = 14
+threshold = 25
+
+[WAE]
+sensitivity = 150
+deadzoneRange = 100
+deadzoneMultiple = 3.7
+
+[MACD]
+short = 20
+long = 40
+signal = 9
+
+[BB]
+TimePeriod = 20
+NbDevUp = 2
+NbDevDn = 2
+
+[STOPS]
+atr = 21
+stoploss = 20
+tp1 = 20
+tp2 = 40
+tp3 = 50
+
+[FILE]
+strat_name = "default"

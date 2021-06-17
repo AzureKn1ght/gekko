@@ -1,0 +1,31 @@
+[EMA]
+long = 153
+short = 53
+
+[BULL]
+rsi = 29
+high = 76
+low = 36
+mod_high = 15
+mod_low = -20
+
+[BEAR]
+rsi = 30
+high = 69
+low = 29
+mod_high = 25
+mod_low  = -5
+
+[ADX]
+adx = 3
+threshold = 65
+
+[STOPS]
+atr = 12
+stoploss = 18
+tp1 = 10
+tp2 = 16
+tp3 = 22
+
+[FILE]
+strat_name = "default"

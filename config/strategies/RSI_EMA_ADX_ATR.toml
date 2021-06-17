@@ -1,0 +1,29 @@
+[EMA]
+long = 1500
+short = 1000
+
+[BULL]
+rsi = 24
+high = 80
+low = 36
+mod_high = 15
+mod_low = -5
+
+[BEAR]
+rsi = 16
+high = 60
+low = 15
+mod_high = 15
+mod_low  = -5
+
+[ADX]
+adx = 3
+high = 85
+low = 45
+
+[STOPS]
+atr = 14
+stoploss = 1.5
+tp1 = 1
+tp2 = 2
+tp3 = 3

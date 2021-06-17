@@ -1,0 +1,51 @@
+[EMA]
+long = 1500
+short = 1000
+
+[BULL]
+rsi = 24
+high = 80
+low = 36
+mod_high = 15
+mod_low = -5
+
+[BEAR]
+rsi = 16
+high = 60
+low = 15
+mod_high = 15
+mod_low  = -5
+
+[ADX]
+adx = 3
+high = 85
+low = 45
+
+[BASELINE]
+hma = 20
+
+[FISHER]
+length = 18
+trigger = 2
+
+[WAE]
+sensitivity = 150
+deadzoneRange = 100
+deadzoneMultiple = 3.7
+
+[MACD]
+short = 20
+long = 40
+signal = 9
+
+[BB]
+TimePeriod = 18
+NbDevUp = 2
+NbDevDn = 2
+
+[STOPS]
+atr = 30
+stoploss = 50
+tp1 = 30
+tp2 = 40
+tp3 = 50
